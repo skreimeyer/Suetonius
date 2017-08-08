@@ -1,15 +1,15 @@
 Suetonius
 ===========================================================
-# Suetonius is meant to be a simple imageboard archiver. It
-# identifies thread URLs from the catalog of multiple image
-# boards and then downloads every thread in JSON format and
-# tags them with metadata before storing them in MongoDB,
-# This program is intended to be an uncomplicated way to hold
-# imageboard comments for later processing or storage in an
-# RDBMS. It currently supports 4chan, 8chan, lainchan, endchan
-# 32chan and wizardchan. The config.ini variables are self-
-# explanatory support can be added for any board that has either
-# 'threads.json' or 'catalog.json' pages available.
+ Suetonius is meant to be a simple imageboard archiver. It
+ identifies thread URLs from the catalog of multiple image
+ boards and then downloads every thread in JSON format and
+ tags them with metadata before storing them in MongoDB,
+ This program is intended to be an uncomplicated way to hold
+ imageboard comments for later processing or storage in an
+ RDBMS. It currently supports 4chan, 8chan, lainchan, endchan
+ 32chan and wizardchan. The config.ini variables are self-
+ explanatory support can be added for any board that has either
+ 'threads.json' or 'catalog.json' pages available.
 
 Classes:
 Request Handler
